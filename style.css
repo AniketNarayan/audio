@@ -1,0 +1,82 @@
+body {
+    background-color: #be26cc
+}
+
+.text-white {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: repeat(3, 1fr);
+    ;
+
+}
+
+.header {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-header {
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
+.footer {
+    background-color: #7e3685;
+    grid-column: 1/-1;
+    margin-top: 22vh;
+    /* this needs to be improved*/
+
+}
+
+.footer h1 {
+    text-align: center
+}
+
+.signin-button {
+    background-color: #712d77;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 44px;
+    width: 82px;
+    align-self: center;
+}
+
+.signin-button:hover {
+    background-color: #412943
+}
+
+.getting-started {
+    display: grid;
+    gap: 10px
+}
+
+.block-level h1 {
+    font-size: 56px;
+}
+
+.block-level p {
+    transform: translate(-0%, -173%);
+    /* this needs to be improved*/
+    font-size: 26px;
+    margin-left: 5rem;
+    color: #A9A9A9;
+}
+
+.block-level {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-headers-button {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
